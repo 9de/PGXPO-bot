@@ -1,0 +1,11 @@
+{
+    "token": "token",
+    "prefix": "prefix",
+    "admin": [
+        "",
+        "id2",
+        "You can add more"
+    ],
+    "streamingurl" : "https://www.twitch.tv/x_hiroki",
+    "Clansicon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdYFnHMWY_G37oRji9aNmXQtibep9-fpT-CQ&usqp=CAU"
+}
