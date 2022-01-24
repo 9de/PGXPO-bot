@@ -26,7 +26,7 @@ module.exports = {
             .addField("> Created at 📅", createdbot,true)
             .addField(`> Description 📄`, `Hello, I am ${client.user.username}'s bot. I can help you to get information about any player in PGXPO server\n[Github](https://github.com/9de/PGXPO-bot) | [Instagram](https://instagram.com/ljzb) | [Youtube](https://www.youtube.com/watch?v=U9r_unk7GC8)`,true)
             .addField("> PC information's 💻", `CPU: \`${cpu.trim()}\`\n Total Ram:\`${ram}\``,true)
-            .addField("Uptime bot ⏲:", `\`${require('pretty-ms')(client.uptime)}\``,true)
+            .addField("> Uptime bot ⏲:", `\`${require('pretty-ms')(client.uptime)}\``,true)
             .addField("> Nodejs Version:",`\`${process.version}\``,true)
             .addField("> Discord.js Version:",`\`${discordjsversion.replace("^","")}\``,true)
             .setThumbnail(client.user.displayAvatarURL({dynamic: true}))
